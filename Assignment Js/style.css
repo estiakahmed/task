@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+/* heading section start */
+
+li.nav-item a {
+    font-size: 20px;
+    font-weight: 500;
+    color: #333;
+}
+section.hero-section {
+    background: url(images/header_bg.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+p {
+    color: white;
+    text-align: center;
+}
+.box {
+    margin-top: 84px;
+    background: #ff0000c7;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin-bottom: 84px;
+}
+select#blood-option {
+    width: 100%;
+    padding: 7px;
+    font-weight: 600;
+    border-radius: 5px;
+    outline: none;
+}
+.info_tables {
+    padding-top: 14px;
+}
+button.navbar-toggler {
+    background: red;
+    color: white;
+}
+
+span.navbar-toggler-icon {
+    padding: 0px !important;
+    color: white !important;
+}
+
+button.navbar-toggler {
+    padding: 6px 8px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+}
+/* heading section end */
